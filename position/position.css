@@ -1,0 +1,39 @@
+/* Styling nav */
+header {
+    background-color: aqua;
+    padding: 1em 0;
+}
+.container {
+    background-color: aqua;
+    width: 960px;
+
+    /* THIS IS IMPORTANT IF WE WANT OUR NAV ELEMENT TO BE INSIDE OF THIS CONTAINER */
+    position: relative;
+    margin: 0 auto;
+}
+img {
+    border-radius: 50%;
+    height: 8em;
+    width: 8em;
+}
+
+nav {
+    /* When we define position absolute, now we can control how this element should be displayed
+        but if we want this element to be inside of another element, this external one should have
+        relative position
+    */
+    position: absolute;
+    top: 0;
+    right: 0;
+    top: 4em;
+
+
+}
+
+nav ul li{
+    display: inline;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 0.25em;
+}
+
