@@ -20,7 +20,7 @@ img {
 nav {
     /* When we define position absolute, now we can control how this element should be displayed
         but if we want this element to be inside of another element, this external one should have
-        relative position
+        relative position.
     */
     position: absolute;
     top: 0;
