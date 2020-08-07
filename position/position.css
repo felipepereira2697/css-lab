@@ -1,4 +1,7 @@
 /* Styling nav */
+body{
+    overflow-x: hidden;
+}
 header {
     background-color: aqua;
     padding: 1em 0;
@@ -48,9 +51,17 @@ nav ul li{
 .main-section {
     width: 100vw;
 }
+.items-list {
+    width: 100vw;
+}
 .items-list li {
     /* Now the divs inside of it will be displayed side by side */
     display: inline-block;
+    
+    vertical-align: top;
+
+    
+    
 }
 .outbox {
     background: tomato;
@@ -70,4 +81,40 @@ nav ul li{
     top: 75px;
     left: 75px;
     border-radius: 50%;
+}
+
+.jobs-list {
+    width: 100vw;
+    /* height auto */
+    height: auto;
+    background-color: cornflowerblue;
+    
+}
+
+.jobs-list li {
+    display: inline-block;
+    vertical-align: top;
+    /* Sometimes we need to deal with % and px at the same time so, to take everything into the account
+        so if we define an element width as 30% and we want to add a padding based on a element with 30%, we add
+        the box-sizing:  border-box; property
+    */
+    box-sizing: border-box;
+    margin-left: 4%;
+    padding-top: 4% ;
+    width: 20vw;
+
+    
+    
+}
+.job {
+
+    width: 15vw;
+    background-color: #FFF;
+    border-radius: 50%;
+    height: 15vw;
+
+    /* centering inside li tag */
+    margin: 0 auto;
+    
+    
 }
