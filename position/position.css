@@ -124,4 +124,12 @@ nav ul li{
 main > p {
     background: grey;
 }
+/* Getting brother element */
+.brother-paragraph + p {
+    background-color: black !important ;
+}
 
+/* Every paragraph except the one that contains .brother-paragraph class */
+p:not(.brother-paragraph) {
+    color: yellow;
+}
