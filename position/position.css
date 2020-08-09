@@ -101,6 +101,7 @@ nav ul li{
     box-sizing: border-box;
     margin-left: 4%;
     padding-top: 4% ;
+    margin-bottom: 4%;
     width: 20vw;
 
     
@@ -118,3 +119,9 @@ nav ul li{
     
     
 }
+
+/* Selecting direct childs */
+main > p {
+    background: grey;
+}
+
