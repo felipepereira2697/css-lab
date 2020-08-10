@@ -6,3 +6,9 @@
     /* Get the space and justify it between those elements */
     justify-content: space-between;
 }
+
+.cabecalhoPrincipal-nav {
+    display: flex;
+    /* this justify content only works when we have space remaining */
+    /* justify-content: space-between; */
+}
