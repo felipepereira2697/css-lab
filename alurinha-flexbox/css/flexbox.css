@@ -1,0 +1,8 @@
+/* When working with flexbox we define in the parent of the items that we want to aligh */
+/* Container inside cabecalhoPrincipal */
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+    /* Get the space and justify it between those elements */
+    justify-content: space-between;
+}
