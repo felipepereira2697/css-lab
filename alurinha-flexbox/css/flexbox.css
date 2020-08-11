@@ -31,3 +31,17 @@
 .rodapePrincipal-contatoForm-fieldset {
     display: flex;
 }
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    /* Changing direction for flex to use as column instead of row */
+    /* flex-direction: column; */
+    /* Yes, when we reach the limit I want to break into another colum */
+    /* flex-wrap: wrap; */
+    flex-flow: column wrap;
+    height: 250px;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
