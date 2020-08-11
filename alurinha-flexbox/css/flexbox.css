@@ -12,3 +12,22 @@
     /* this justify content only works when we have space remaining */
     /* justify-content: space-between; */
 }
+.rodapePrincipal .container {
+    display: flex;
+    justify-content: space-between;
+}
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    width: 70%;
+    margin-right: 5%;
+}
+.rodapePrincipal-contatoForm {
+    width: 25%;
+
+}
+/* when we add display flex: the child elements will have the same height */
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
