@@ -104,16 +104,17 @@ body {
 	text-decoration: none;
 	color: #FFF;
 	margin-top: 10px;
+	font-size: .9em;
+	/* CHANGED HERE */
+	margin-left: 1.2em ;
 }
 
-.rodapePrincipal-navMap-link {
-	font-size: .9em;
-}
 
 .navmap-list-title {
 	font-weight: 700;
 	font-size: 1.3em;
-	margin: .9em 0;
+	/* CHANGED HERE */
+	margin: .9em ;
 	padding-left: .3em;
 	padding-top: .2em;
 	padding-bottom: .2em;
