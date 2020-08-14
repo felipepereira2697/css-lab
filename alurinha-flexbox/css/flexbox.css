@@ -104,4 +104,10 @@
     .rodapePrincipal-contatoForm-fieldset {
         justify-content: center;
     }
+
+     .cabecalhoPrincipal-nav-link-app {
+        /* Thats really nice since the parent element is a flex container, here on the flex item
+        we can change the order, so we can display this element as the first one */
+        order: -1;
+     }
 }
