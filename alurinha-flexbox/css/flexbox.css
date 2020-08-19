@@ -76,8 +76,9 @@
     flex-grow: 1;
 }
 .videoSobre-video {
-    flex-grow: 1;
     flex-shrink: 2;
+    flex-grow: 1;
+    
 }
 .videoSobre-sobre-list {
     flex-grow: 1;
