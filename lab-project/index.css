@@ -52,18 +52,22 @@ header{
 }
 
 /* About container */
-.about-container {
+.about-container, .mission-container {
     background-color: var(--main-section-color);
     display: flex;
     /* border: 1px solid blue; */
     
 }
-.about-paragraph {
+.mission-container {
+    flex-direction: column;
     
+    background-color: var(--main-body-color);
+}
+.about-paragraph, .mission-paragraph {
     line-height: 1.5em;
 }
 
-.about-title {
+.about-title, .mission-paragraph {
     margin-top:20px;
     margin-bottom: 20px;
     text-align: center;
@@ -72,7 +76,14 @@ header{
     width: 40vw;
     
 }
+
 .about-dog-health {
     padding: 2em;
 }
-
+.mission-dogWoman-img {
+    margin-top: 5%;
+}
+.mission-dogWoman-img img {
+    width: 50%;
+    
+}
