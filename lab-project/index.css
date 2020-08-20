@@ -3,15 +3,18 @@
     --main-section-color: #F2F5F7;
     --black: #000;
 }
+* {
+    font-family: 'Roboto', sans-serif;
+}
 body {
     
     background-color: var(--main-body-color);
-	font-family: 'Open Sans',Arial,sans-serif;
 }
 
 h2 {
     font-weight: bold;
-	font-size: 2em;
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .container {
@@ -25,7 +28,7 @@ h2 {
     height: 30%;
 }
 header{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .menu-container {
     display: flex;
@@ -44,20 +47,32 @@ header{
 .menu-list li a{
     text-decoration: none;
     color: var(--black);
+    text-transform: uppercase;
+    
 }
 
 /* About container */
 .about-container {
     background-color: var(--main-section-color);
     display: flex;
+    /* border: 1px solid blue; */
     
 }
 .about-paragraph {
     
-    line-height: 1.3em;
+    line-height: 1.5em;
 }
+
 .about-title {
     margin-top:20px;
     margin-bottom: 20px;
+    text-align: center;
+}
+.about-dog-img img {
+    width: 40vw;
     
 }
+.about-dog-health {
+    padding: 2em;
+}
+
