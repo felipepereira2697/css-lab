@@ -172,29 +172,31 @@
             <p>Want to join our community or simple want to know more? Just reach us out!</p>
         </div>
        
-        <div class="form-container">
+        <div class="form-section-container">
             
-           
-            <form action="">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Your name here">
+          
+            <form action="" >
+                <fieldset>
+                    <legend>Have a question? Ask us!</legend>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your name here">
 
-                <input type="checkbox" id="articles" name="articles" value="articles">
-                <label for="articles"> Articles</label><br>
-                <input type="checkbox" id="dogs" name="dogs" value="dogs">
-                <label for="dogs"> Dogs</label><br>
-                <input type="checkbox" id="nature" name="nature" value="nature">
-                <label for="nature"> Nature & People</label>
+                    <label for="subjects">Subject</label>
+                    <select name="subjects" id="subjects">
+                        <option value="articles">Articles</option>
+                        <option value="actions">Actions</option>
+                        <option value="community">Mercedes</option>
+                    </select>
+                    <label for="subject">Your message:</label>
 
-                <label for="subject">Your message:</label>
+                    <textarea id="subject" name="subject" rows="4" cols="50">
+                    
+                    </textarea>
 
-                <textarea id="subject" name="subject" rows="4" cols="50">
-                
-                </textarea>
-
-                <button type="submit">Send</button>
+                    <button type="submit">Send</button>
+                </fieldset>
             </form>
-
+           
             <div class="contact-dog-img">
                 <img src="img/dogWalker.svg" alt="Contact us image" srcset="">
             </div>

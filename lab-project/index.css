@@ -129,11 +129,28 @@ h2 {
 .contact-container {
     background-color: var(--main-body-color);
 }
-.form-container {
+.form-section-container {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     
 }
+/* Not sure if its the best approach */
+label, input, textarea,select {
+    display: block;
+    margin-bottom: 1.0em;
+}
+form {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 24.5%;
+    padding: 2em;
+    width: 40%;
+}
 .contact-dog-img img {
-    width: 40vw;
-    
+    width: 40vw;   
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
 }
