@@ -130,20 +130,25 @@
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
               <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
             </ol>
         
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
-                <img src="img/slide1.jpg" alt="Los Angeles" style="width:100%; ">
+                <img src="img/slide1.jpg" alt="Dog 1" style="width:100%; height: 75vh;">
               </div>
         
               <div class="item">
-                <img src="img/slide2.jpg" alt="Chicago" style="width:100%;">
+                <img src="img/slide2.jpg" alt="Dog 2" style="width:100%; height: 75vh;">
               </div>
             
               <div class="item">
-                <img src="img/slide3.jpg" alt="New york" style="width:100%;">
+                <img src="img/slide3.jpg" alt="Dog 3" style="width:100%; height: 75vh;">
+              </div>
+
+              <div class="item">
+                <img src="img/slide4.jpg" alt="Dog 4" style="width:100%; height: 75vh;">
               </div>
             </div>
         
@@ -157,6 +162,38 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
+        
+    </section>
+
+    <section class="contact-container">
+
+        <div class="contact-header">
+            <h2 class="contact-title">Contact Us</h2>
+            <p>Want to join our community or simple want to know more? Just reach us out!</p>
+        </div>
+       
+        <div class="form-container">
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Your name here">
+
+                <input type="checkbox" id="articles" name="articles" value="articles">
+                <label for="articles"> Articles</label><br>
+                <input type="checkbox" id="dogs" name="dogs" value="dogs">
+                <label for="dogs"> Dogs</label><br>
+                <input type="checkbox" id="nature" name="nature" value="nature">
+                <label for="nature"> Nature & People</label>
+
+                <label for="subject">Your message:</label>
+
+                <textarea id="subject" name="subject" rows="4" cols="50">
+                
+                </textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        
         
     </section>
     
