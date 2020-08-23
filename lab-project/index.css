@@ -95,7 +95,7 @@ h2 {
     background-color: var(--main-body-color);
     justify-content: space-around;
 }
-.whatWeDo-title {
+.whatWeDo-title, .actions-title {
     display: block;
     margin: 1em 0;
     text-align: center;
@@ -105,10 +105,11 @@ h2 {
     width: 350px;
     height: 350px;
 }
-.whatWeDo-header {
+.whatWeDo-header, .actions-header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     margin-bottom: 3em;
 }
 
@@ -124,4 +125,3 @@ h2 {
     padding: 1em 2em;
 }
 
-  
