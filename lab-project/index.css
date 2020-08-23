@@ -65,7 +65,7 @@ h2 {
     margin-bottom: 2em;
 }
 /* About container */
-.about-container {
+.about-container{
     background-color: var(--main-section-color);
     display: flex;
     /* border: 1px solid blue; */
@@ -126,3 +126,14 @@ h2 {
 }
 
 /* Contact Us */
+.contact-container {
+    background-color: var(--main-body-color);
+}
+.form-container {
+    display: flex;
+    
+}
+.contact-dog-img img {
+    width: 40vw;
+    
+}
