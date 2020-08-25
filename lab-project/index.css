@@ -61,7 +61,7 @@ h2 {
     
     
 }
-.about-container, .mission-container, .actions-container, .contact-container {
+.about-container, .mission-container, .contact-container {
     margin-bottom: 2em;
 }
 /* About container */
@@ -127,7 +127,8 @@ h2 {
 
 /* Contact Us */
 .contact-container {
-    background-color: var(--main-body-color);
+    background-color: var(--main-section-color);
+
 }
 .form-section-container {
     display: flex;
@@ -146,6 +147,8 @@ form {
     width: 24.5%;
     padding: 2em;
     width: 40%;
+    background-color: var(--main-body-color);
+    
 }
 .contact-dog-img img {
     width: 40vw;   
@@ -156,11 +159,15 @@ form {
 }
 
 footer {
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 15vh;
+    height: 12vh;
     background-color: var(--main-body-color);
+}
+footer p{
+    margin-left: 5em;
 }
 .footer-list {
     display:flex;
@@ -169,6 +176,13 @@ footer {
 .footer-list-item {
     margin: 1em;
 }
+.footer-list-item:last-child {
+    margin-right: 4em;
+}
 .footer-list-item a {
     color:var(--black);
+}
+
+.footer-list-item a:hover {
+    color:var(--main-body-color);
 }
