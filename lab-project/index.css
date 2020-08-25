@@ -154,3 +154,21 @@ form {
     display: flex;
     flex-direction: column;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: var(--main-body-color);
+}
+.footer-list {
+    display:flex;
+}
+
+.footer-list-item {
+    margin: 1em;
+}
+.footer-list-item a {
+    color:var(--black);
+}
