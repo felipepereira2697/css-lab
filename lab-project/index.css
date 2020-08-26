@@ -157,6 +157,15 @@ form {
     display: flex;
     flex-direction: column;
 }
+.custom-border-color {
+    border-color: var(--hover-link-color);
+}
+.custom-border {
+    border-bottom: 1px solid var(--hover-link-color);
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
 
 footer {
     
@@ -166,9 +175,7 @@ footer {
     height: 12vh;
     background-color: var(--main-body-color);
 }
-footer p{
-    
-}
+
 .footer-list {
     display:flex;
 }
@@ -186,5 +193,5 @@ footer p{
 }
 
 .footer-list-item a:hover {
-    color:#A1D9FF;
+    color: var(--main-body-color);
 }
