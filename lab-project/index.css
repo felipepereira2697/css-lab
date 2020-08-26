@@ -2,7 +2,7 @@
     --main-body-color: #FFF;
     --main-section-color: #F2F5F7;
     --black: #000;
-    --hover-link-color: #063BCB;
+    --hover-link-color: #A1D9FF;
 }
 h1,h2,h3,h4 {
     font-weight: bold;
@@ -162,12 +162,12 @@ footer {
     
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 12vh;
     background-color: var(--main-body-color);
 }
 footer p{
-    margin-left: 5em;
+    
 }
 .footer-list {
     display:flex;
@@ -177,12 +177,14 @@ footer p{
     margin: 1em;
 }
 .footer-list-item:last-child {
-    margin-right: 4em;
+    
 }
 .footer-list-item a {
     color:var(--black);
+    box-shadow: 0 4px 8px 0 rgba(161,217,255, 0.2);
+    transition: 0.3s;
 }
 
 .footer-list-item a:hover {
-    color:var(--main-body-color);
+    color:#A1D9FF;
 }
