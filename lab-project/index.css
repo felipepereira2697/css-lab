@@ -195,3 +195,9 @@ footer {
 .footer-list-item a:hover {
     color: var(--main-body-color);
 }
+
+@media(max-width: 768px ) {
+    .menu-container {
+        flex-direction: column;
+    }
+}
