@@ -186,9 +186,11 @@ footer {
 }
 
 .footer-list-item a:hover {
-    color: var(--main-body-color);
+    color: var(--hover-link-color);
 }
 
+
+/* Responsivee */
 @media(max-width: 768px ) {
     .menu-container {
         flex-direction: column;
