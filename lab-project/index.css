@@ -48,18 +48,13 @@ h2 {
 }
 .menu-list li a{
     text-decoration: none;
-    
-    
     color: var(--black);
     text-transform: uppercase;
     transition: all .5s ease;
     
 }
 .menu-list li a:hover{
-    
     color: var(--hover-link-color)
-    
-    
 }
 .about-container, .mission-container, .contact-container {
     margin-bottom: 2em;
@@ -183,9 +178,7 @@ footer {
 .footer-list-item {
     margin: 1em;
 }
-.footer-list-item:last-child {
-    
-}
+
 .footer-list-item a {
     color:var(--black);
     box-shadow: 0 4px 8px 0 rgba(161,217,255, 0.2);
@@ -200,4 +193,29 @@ footer {
     .menu-container {
         flex-direction: column;
     }
+    .about-container {
+        flex-direction: column;
+    }
+    .about-dog-img img {
+        width: 100vw;
+    }
+    .whatWeDo {
+        flex-direction: column;
+    }
+    .mission-container{
+        flex-direction: column;
+    }
+    .card img{
+        width: 100vw;
+        height: auto;
+    }
+    .card-container {
+        width: 100vw;
+    }
+    .card {
+        box-shadow: 0 ;
+        transition: 0;
+        width: 100vw;
+    }
+    
 }
