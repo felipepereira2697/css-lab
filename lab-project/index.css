@@ -192,6 +192,7 @@ footer {
 
 /* Responsivee */
 @media(max-width: 768px ) {
+    /* Maioria das vezes, queremos o layout em stack */
     .menu-container {
         flex-direction: column;
     }
